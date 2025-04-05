@@ -1,5 +1,3 @@
-import csv
-
 import numpy as np
 import pandas as pd
 import streamlit as st
@@ -125,7 +123,7 @@ dataFrame["growth"] = (
 # st.write(dataFrame.loc[:, ["Country Name", "2021", "2022", "growth"]])
 
 
-# Display top 5 contries by "growth_rate_2023" (bar chart)
+# Display top 5 countries by "growth_rate_2023" (bar chart)
 
 dataFrame = dataFrame.nlargest(5, "growth")
 st.write(dataFrame.loc[:, ["Country Name", "2021", "2022", "growth"]])
