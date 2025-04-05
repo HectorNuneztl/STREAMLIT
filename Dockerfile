@@ -10,7 +10,12 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
 
+
+COPY . /STREAMLIT
+
 RUN git clone https://github.com/HectorNuneztl/STREAMLIT.git .
+
+RUN pip freeze > requirements.txt
 
 RUN pip3 install -r requirements.txt
 
