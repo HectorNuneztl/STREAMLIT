@@ -119,7 +119,7 @@ Al correr cualquier comando para poder visualizar la app se copia la dirección 
 
 
 
-##### Utilizando solo streamlit y docker : 
+##### Utilizando streamlit y docker : 
 1. Crear una instancia:
 Seguir los pasos 1 y 2 del despliegue con solo streamlit
 
