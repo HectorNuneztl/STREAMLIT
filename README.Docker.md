@@ -1,4 +1,6 @@
-## CREACIÓN DE UN DOCKER: 
+
+
+## PASOS PARA LA CREACIÓN DE UN DOCKER: 
 
 1. ##### _Imagen:_
 * Si no se tiene un repositorio de github para el proyecto entonces clonarlo mediante **git clone _link a SSH del repositorio_**. Caso contrario, continuar con los pasos siguientes. 
