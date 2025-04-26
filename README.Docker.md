@@ -5,7 +5,7 @@
 1. ##### _Imagen:_
 * Si no se tiene un repositorio de github para el proyecto entonces clonarlo mediante **git clone _link a SSH del repositorio_**. Caso contrario, continuar con los pasos siguientes. 
 
-* Crear un docker file para el proyecto usando _docker init_ e ir seleccionando las opciones que se adecuen a la aplicación (utilizar puerto 8051 cuando lo pida). 
+* Crear un docker file para el proyecto usando _docker init_ e ir seleccionando las opciones que se adecuen a la aplicación (utilizar puerto 8501 cuando lo pida). 
 
 * Se generarán varios archivos, sin embargo, el archivo de requerimientos no, este debe crearse a parte. A pesar de que el docker file se cree solo lo más probable es que este no funcione al momento de crear la imagen y su contenedor, por ello seguir el paso siguiente para la creación de un docker file. 
 
