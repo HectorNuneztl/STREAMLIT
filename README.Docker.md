@@ -1,7 +1,6 @@
 
 
 ## PASOS PARA LA CREACIÓN DE UN DOCKER: 
-
 1. ##### _Imagen:_
 * Si no se tiene un repositorio de github para el proyecto entonces clonarlo mediante **git clone _link a SSH del repositorio_**. Caso contrario, continuar con los pasos siguientes. 
 
@@ -60,10 +59,9 @@ Abrir la aplicación Docker e ir al apartado de imagenes, buscar la imagen cread
 Tomar en cuenta que si se actualiza la aplicación posterior a la creación del contenedor, es necesario generar una nueva imagen en la cual se vean reflejados los cambios realizados. 
 
 
+
 ## PASOS PARA DESPLEGAR UNA ST APP EN EC2
-
-# Utilizando solo streamlit: 
-
+##### Utilizando solo streamlit: 
 1. Crear una instancia:
 Menú -> todos los serrvicios -> informática -> EC2 ->Lanzar instancia
 
@@ -119,8 +117,9 @@ Al correr cualquier comando para poder visualizar la app se copia la dirección 
 
 "Dirección IP:puerto al que escucha"
 
-# Utilizando solo streamlit y docker : 
 
+
+##### Utilizando solo streamlit y docker : 
 1. Crear una instancia:
 Seguir los pasos 1 y 2 del despliegue con solo streamlit
 
